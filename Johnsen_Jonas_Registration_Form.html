@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <div>
+            <label>First Name: *</label>
+            <input type="text" name="name" placeholder="Your first name..." >
+                <p> </p>
+            <label>Last Name: *</label>
+            <input type="text" name="last name" placeholder="Your last name..." >
+                <p> </p>
+            <label>Email Address: *</label>
+            <input type="text" name="email" placeholder="Your email address..." >
+                <p> </p>
+            <label>Password: *</label>
+            <input type="password" name="password" placeholder="Your password..." >
+                <p> </p>
+            <label>Confirm your password: *</label>
+            <input type="password" name="password confirmation" placeholder="Confirm your password..." >
+                <p> </p>
+            <label>Birthday: </label>
+            <input type="date" name="DOB" placeholder="Your date of birth..." >
+                <p> </p>
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" value="non-binary" id="non-binary">
+                <label for="Non-Binary">Non-Binary</label>
+                <input type="radio" name="gender" value="nondisclosed" id="nondisclosed">
+                <label for="nondisclosed">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myself:</p>
+            <textarea name="comment" cols="30" rows="3"></textarea>            
+        </div>
+        <div>
+            <p> </p>
+            <label>Favorite Language:</label>
+            <select name="Favorite Language:">
+                <option>Javascript</option>
+                <option>HTML</option>
+                <option>Python</option>
+                <option>Norwegian</option>
+            </select>
+        </div>
+        <div>
+            <p> </p>
+            <input type="submit" value="Create Account">
+        </div>
+        <div>
+            <P> </P>
+            <P>* Indicates a required field</P>
+        </div>
+    </body>
+</html>
